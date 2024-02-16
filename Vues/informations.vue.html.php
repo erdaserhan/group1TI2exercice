@@ -7,6 +7,7 @@
 </head>
 <body>
 
+
 <?php
     foreach ($getInformations as $information) :
         ?>
@@ -26,6 +27,7 @@ endforeach;
         <input type="submit" value="Envoyer">
     </form>
 </div>
+<h3><?php if(isset($erreur)) echo $erreur?></h3>
 
 </body>
 </html>

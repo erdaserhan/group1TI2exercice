@@ -23,3 +23,5 @@ try {
 
 $getInformations = getInformations($db);
 include_once "../Vues/informations.vue.html.php";
+
+$db = null;
