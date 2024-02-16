@@ -6,6 +6,15 @@
     <title>Informations</title>
 </head>
 <body>
+
+<?php
+    foreach ($getInformations as $information) :
+        ?>
     
-</body>
-</html>
+    <?php echo $information['themail']; ?> 
+    <hr>
+    <?php echo $information['themessage']; ?>
+    <hr>
+<?php
+endforeach;
+?>
